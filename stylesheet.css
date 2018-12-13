@@ -18,3 +18,10 @@ body{
     border-radius: 50%;
 }
 
+#play, #pause, #reverse{
+    color: red;
+}
+
+#slow, #normal, #fast{
+    color: orange;
+}
