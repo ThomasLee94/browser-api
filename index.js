@@ -27,23 +27,26 @@ const squareAnimation = square.animate([
     iterations: Infinity
 });
 
+// * Pause feature
 squareAnimation.pause();
 document.getElementById('square').style.backgroundColor = "#EF5350";
-
 
 document.getElementById('pause').addEventListener('click', function() {
   squareAnimation.pause();
   document.getElementById('square').style.backgroundColor = "#EF5350";
 });
 
+// * Play feature
 document.getElementById('play').addEventListener('click', function() {
   squareAnimation.play();
   document.getElementById('square').style.backgroundColor = "#2196F3";
 });
 
+// * Reverse feature
 document.getElementById('reverse').addEventListener('click', function() {
   squareAnimation.reverse();
 });
+
 
 document.getElementById('slow').addEventListener('click', function() {
   squareAnimation.playbackRate = 0.5;
