@@ -2,29 +2,32 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Web Animation</title>
+        <title>Web Animation API</title>
         <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
         <h5>Web animations</h5>
 
         <div>
-            <p>This square won't do anything until you click the buttons below!</p>
+            <p>Click the animation features below to see!</p>
             <div id="square"></div>
         </div>
         
         <!-- Animation features -->
-        <div>
+        <div class="animation">
             <p>Animation features</p>
             <button id="play">Play</button>
             <button id="pause">Pause</button>
             <button id="reverse">Reverse</button>
         </div>
 
-        <p>Control of animation speed</p>
-        <button id="slow">Slow</button>
-        <button id="normal">Normal</button>
-        <button id="fast">Fast</button>
+        <!-- Manipulating animation features -->
+        <div class="animation-manipulation">
+            <p>Control of animation speed!</p>
+            <button id="slow">Slow</button>
+            <button id="normal">Normal</button>
+            <button id="fast">Fast</button>
+        </div>
     </body>
     <script src="index.js"></script>
 </html>

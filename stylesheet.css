@@ -4,15 +4,17 @@ body{
     margin: 10% auto;
     width: 500px;
     font-family: helvetica;
+    background: silver; 
 }
 
 #square,#circle {
     width: 100px;
     height: 100px;
     margin: 10px 10px 30px;
-    background-color: #2196F3;
+    background-color: #3358FF;
 }
 
 #circle {
     border-radius: 50%;
 }
+
