@@ -1,3 +1,5 @@
+
+// * Variables
 const diagonalMove = [
     {
         transform: 'translate(0px, 0px)',
@@ -48,7 +50,7 @@ document.getElementById('reverse').addEventListener('click', function() {
   document.getElementById('square').style.backgroundColor = '#808080';
 });
 
-
+// * Speed of animations
 document.getElementById('slow').addEventListener('click', function() {
   squareAnimation.playbackRate = 0.5;
 });
