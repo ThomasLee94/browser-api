@@ -1,6 +1,6 @@
 ## Animations
 
-[I'm an inline-style link with title](https://developer.mozilla.org/en-US/docs/Web/API/Animation/pause "Animation documentation")
+[Link to official documention](https://developer.mozilla.org/en-US/docs/Web/API/Animation "Animation documentation")
 
 # Features:
 
