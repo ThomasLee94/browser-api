@@ -14,37 +14,6 @@ const diagonalMove = [
     }
 ];
 
-let circle = document.getElementById('circle');
-
-circle.addEventListener('click', function() {
-    circle.animate(diagonalMove, {
-        duration: 400,
-        fill: 'forwards'
-    });
-});
-
-document.getElementById('pause').addEventListener('click', function() {
-  squareAnimation.pause();
-  document.getElementById('square').style.backgroundColor = "#EF5350";
-});
-document.getElementById('play').addEventListener('click', function() {
-  squareAnimation.play();
-  document.getElementById('square').style.backgroundColor = "#2196F3";
-});
-document.getElementById('reverse').addEventListener('click', function() {
-  squareAnimation.reverse();
-});
-
-document.getElementById('slow').addEventListener('click', function() {
-  squareAnimation.playbackRate = 0.5;
-});
-document.getElementById('normal').addEventListener('click', function() {
-  squareAnimation.playbackRate = 1;
-});
-document.getElementById('fast').addEventListener('click', function() {
-  squareAnimation.playbackRate = 2;
-});
-
 const square = document.getElementById('square');
 const squareAnimation = square.animate([
     {
@@ -60,3 +29,31 @@ const squareAnimation = square.animate([
 
 squareAnimation.pause();
 document.getElementById('square').style.backgroundColor = "#EF5350";
+
+
+document.getElementById('pause').addEventListener('click', function() {
+  squareAnimation.pause();
+  document.getElementById('square').style.backgroundColor = "#EF5350";
+});
+
+document.getElementById('play').addEventListener('click', function() {
+  squareAnimation.play();
+  document.getElementById('square').style.backgroundColor = "#2196F3";
+});
+
+document.getElementById('reverse').addEventListener('click', function() {
+  squareAnimation.reverse();
+});
+
+document.getElementById('slow').addEventListener('click', function() {
+  squareAnimation.playbackRate = 0.5;
+});
+
+document.getElementById('normal').addEventListener('click', function() {
+  squareAnimation.playbackRate = 1;
+});
+
+document.getElementById('fast').addEventListener('click', function() {
+  squareAnimation.playbackRate = 2;
+});
+
