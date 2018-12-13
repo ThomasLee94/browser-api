@@ -4,7 +4,7 @@
 
 ## Features:
 
-	Applies to the following DOM element.
+Applies to the following DOM element.
 
 ```
 <div class="animation">
