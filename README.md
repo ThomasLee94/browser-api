@@ -4,6 +4,17 @@
 
 ## Features:
 
+	Applies to the following DOM element.
+
+```
+<div class="animation">
+	<p>Animation features</p>
+	<button id="play">Play</button>
+	<button id="pause">Pause</button>
+	<button id="reverse">Reverse</button>
+</div>
+```
+
 1. Play
 
 	A method used to start or stop an animation. 
